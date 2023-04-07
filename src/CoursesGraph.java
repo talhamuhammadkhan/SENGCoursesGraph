@@ -19,11 +19,5 @@ public class CoursesGraph {
 					courseList.get(i).toString() + " | prerequisites: " + courseList.get(i).getPreReqs().toString() + "\n");
 		}
 	}
-	
-	public static void showGraph() {
-		for (int i = 0; i < courses.size(); i++) {
-			System.out.println(
-					courses.get(i).toString();
-		}
-	}
+
 }
